@@ -4,6 +4,8 @@ import photo from '../assets/headerCSS/photo.png'
 
 function Header() {
   return (
+    <div className='header'>
+
     <div className='container-fluid'>
       <div className='row'>
 
@@ -30,6 +32,7 @@ function Header() {
       </div>
 
       </div>
+    </div>
     </div>
   )
 }
