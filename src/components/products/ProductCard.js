@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProductCard.css'
 import Star1 from '../assets/productsSvg/Star1.svg'
+import {useDispatch} from 'react-redux'
 
 function ProductCard({
 id,
@@ -10,6 +11,7 @@ newPrice,
 name
 }) 
 {
+  const dispatch = useDispatch()
   return (
     <div className='card'>
         <div className='rectangle-1'>
@@ -31,7 +33,7 @@ name
         </div>
         </div>
         <div className='button'>
-        <button>
+        <button onClick={() =>{dispatch({type: 'UPDATE_CART_COUNT'})}}>
             <h3>
             ADD TO CART
             </h3>

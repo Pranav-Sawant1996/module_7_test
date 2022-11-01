@@ -112,6 +112,9 @@
   border-radius: 10px;
   border: none;
 }
+.card .rectangle-1 .button button:hover{
+  cursor: pointer;
+}
 
 .card .rectangle-1 .button button h3 {
   width: 145px;

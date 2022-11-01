@@ -7,6 +7,10 @@ import twitter from '../assets/footerSvg/twitter.svg'
 function Footer() {
   const [email,setEmail]=useState('')
   const handleSubmitFeedback = () =>{
+    if(email===''){
+      alert('Please enter email id')
+      return
+    }
     fetch('https://module-7-test-27806-default-rtdb.asia-southeast1.firebasedatabase.app/email.json',
          {
           method: 'POST',
