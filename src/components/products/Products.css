@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@600&family=Poppins:ital,wght@0,200;0,500;0,800;1,500&display=swap");
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+}
+.products h3{
+  width: 172px;
+  height: 32px;
+  left: 89px;
+  top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+.product-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow-x: scroll;
+    padding: 20px;
+    gap: 40px;
+    margin-left: 10px;
+}

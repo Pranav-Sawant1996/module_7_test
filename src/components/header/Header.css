@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@600&family=Poppins:ital,wght@0,200;0,500;0,800;1,500&display=swap");
+.container-fluid {
+  width:1292px;
+  height: 622px;
+  margin-left: calc(50% - 1292px / 2 - 15px);
+  top: 92px;
+  background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+  border-radius: 20px;
+}
+
+.container-fluid .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 206px;
+  position: absolute;
+  width: 1292px;
+  height: 619px;
+  left: 0px;
+  top: 0px;
+}
+.container-fluid .row .col-1 {
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 548px;
+  height: 316px;
+}
+
+.container-fluid .row .col-1 h5 {
+  width: 122px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #2a7cc7;
+}
+
+.container-fluid .row .col-1 h1 {
+  width: 548px;
+  height: 80px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.container-fluid .row .col-1 h4 {
+  width: 376px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.container-fluid .row .col-1 .cta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 221px;
+  height: 62px;
+}
+
+.container-fluid .row .col-1 .cta button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  gap: 10px;
+  width: 221px;
+  height: 62px;
+  background: #23a6f0;
+  border-radius: 5px;
+  border: none;
+}
+.container-fluid .row .col-1 .cta button p {
+  width: 141px;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.container-fluid .row .col-2 {
+    position: relative;
+  width: 697px;
+  height: 619px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.container-fluid .row .col-2 .hero-cover {
+    /* position: absolute; */
+  left: 0.5px;
+  right: 0.5px;
+  top: 0px;
+  bottom: 0px;
+}
+.container-fluid .row .col-2 .hero-cover .none {
+    /* position: absolute; */
+  width: 687px;
+  height: 690px;
+  left: 5.5px;
+  top: -70px;
+}
+.container-fluid .row .col-2 .hero-cover .none #ellipse-1 {
+  position: absolute;
+  width: 15.26px;
+  height: 15.26px;
+  left: 87.38px;
+  top: 480.14px;
+  background: #977df4;
+  border-radius: 50%;
+}
+.container-fluid .row .col-2 .hero-cover .none #ellipse-2 {
+  position: absolute;
+  width: 15.26px;
+  height: 15.26px;
+  left: 658.46px;
+  top: 183.7px;
+  background: #977df4;
+  border-radius: 50%;
+}
+.container-fluid .row .col-2 .hero-cover .none #ellipse-3 {
+  position: absolute;
+  width: 31.24px;
+  height: 31.24px;
+  left: 635.21px;
+  top: 313.75px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.container-fluid .row .col-2 .hero-cover .none #photo{
+    position: absolute;
+    width: 696px;
+    height: 699px;
+    left: calc(50% - 696px/2 - 0.5px);
+    top: 15px;
+    bottom: 0px;    
+background: url('../assets/headerCSS/photo.png');
+
+}
+.container-fluid .row .col-2 .hero-cover .none #ellipse-4 {
+  position: absolute;
+  width: 79.92px;
+  height: 79.92px;
+  left: 62.67px;
+  top: 70.35px;
+  background: #ffffff;
+  border-radius: 50%;
+  /* z-index: 2; */
+}
+.container-fluid .row .col-2 .hero-cover .none #ellipse-5{
+    position: absolute;
+width: 499.88px;
+height: 499.88px;
+left: 122.98px;
+top: 58px;
+background: #FFFFFF;
+border-radius: 50%;
+}
