@@ -31,7 +31,9 @@ React.useEffect(()=>{
 },[])
   return (
     <div className='products'>
+      <div id='title'>
       <h3>Products</h3>
+      </div>
     <div className='product-list'>
 
       {

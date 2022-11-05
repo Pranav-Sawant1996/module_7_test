@@ -4,27 +4,25 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  width: 300px;
-  height: auto;
-  left: 99px;
-  top: 132px;
+  width: 200px;
+  height: 300px;  
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 10px;
 }
-.rectangle-1 {
-  width: 300px;
-  height: auto;
-  left: 99px;
-  top: 132px;
+.card .rectangle-1 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 200px;
+  height: 300px;
 }
 
 .card .rectangle-1 img {
-  width: 100%;
-  height: 300px;
-  left: 69px;
-  top: 820px;
+  width: 100px;
+  height: 100px;
   border-radius: 10px 10px 0px 0px;
 }
 .card .rectangle-1 .details {
@@ -33,26 +31,18 @@
   padding: 4px;
 }
 .card .rectangle-1 .details #name {
-  width: 253px;
-  height: 32px;
-  left: 115px;
-  top: 451px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 32px;
-  letter-spacing: 0.1px;
+  font-size: 10px;
   color: #000000;
 }
 .card .rectangle-1 .details .details-2 {
-    position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin-top: 15px;
+  width: 200px;
 }
 .card .rectangle-1 .details .details-2 .stars {
   width: 106px;
@@ -61,70 +51,65 @@
   top: 505px;
 }
 .card .rectangle-1 .details .details-2 .stars img {
-  width: 15px;
-  height: 15px;
+  width: 9px;
+  height: 9px;
   left: 116px;
   top: 505px;
 }
 .card .rectangle-1 .details .details-2 .price {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  gap: 4px;
 }
 .card .rectangle-1 .details .details-2 .price #oldPrice {
-  width: 60px;
-  height: 32px;
-  left: 282px;
-  top: 498px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 32px;
   letter-spacing: 0.1px;
   text-decoration-line: line-through;
   color: #444444;
 }
 .card .rectangle-1 .details .details-2 .price #newPrice {
-  width: 92px;
-  height: 32px;
-  left: 353px;
-  top: 495px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 32px;
   letter-spacing: 0.1px;
   color: #000000;
 }
-
-.card .rectangle-1 .button button {
+.card .rectangle-1 .button{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 43px;
-  left: 117px;
-  top: 547px;
+  width: 200px;
+}
+.card .rectangle-1 .button button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 20px;
   background: #23a6f0;
   border-radius: 10px;
   border: none;
+  /* margin-top: 4px; */
 }
 .card .rectangle-1 .button button:hover{
   cursor: pointer;
 }
 
-.card .rectangle-1 .button button h3 {
-  width: 145px;
-  height: 32px;
-  left: 210px;
-  top: 553px;
+.card .rectangle-1 .button button p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 10px;
   line-height: 32px;
   letter-spacing: 0.1px;
   color: #ffffff;

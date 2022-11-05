@@ -34,9 +34,9 @@ name
         </div>
         <div className='button'>
         <button onClick={() =>{dispatch({type: 'UPDATE_CART_COUNT'})}}>
-            <h3>
+            <p>
             ADD TO CART
-            </h3>
+           </p>
             </button>
         </div>
         </div>
